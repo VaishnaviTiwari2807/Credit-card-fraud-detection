@@ -16,7 +16,7 @@ Models Used
 Random Forest
 Overview: Employs an ensemble of decision trees to improve predictive accuracy and control over-fitting.
 Purpose: Effectively handles the unbalanced nature of the dataset and provides feature importance scores.
-Autoencoder
+#Autoencoder
 Overview: A type of neural network that learns to encode the unlabeled data efficiently.
 Purpose: Identifies outliers in transaction data, which are potential frauds, by learning to reconstruct the input data.
 
