@@ -7,16 +7,22 @@ Dataset Description
 The dataset consists of transactions made by European cardholders in September 2013. It is highly unbalanced, containing 492 frauds out of 284,807 transactions, which accounts for only 0.172% of all transactions.
 
 Features
+
 Time: Seconds elapsed between each transaction and the first transaction in the dataset.
+
 Amount: Transaction amount; this feature can be used for cost-sensitive learning.
+
 V1 to V28: Anonymous features generated through a PCA transformation to protect user identities.
+
 Class: The response variable where 1 indicates fraud and 0 indicates a legitimate transaction.
 
 Models Used
+
 Random Forest
 Overview: Employs an ensemble of decision trees to improve predictive accuracy and control over-fitting.
 Purpose: Effectively handles the unbalanced nature of the dataset and provides feature importance scores.
-#Autoencoder
+
+Autoencoder
 Overview: A type of neural network that learns to encode the unlabeled data efficiently.
 Purpose: Identifies outliers in transaction data, which are potential frauds, by learning to reconstruct the input data.
 
